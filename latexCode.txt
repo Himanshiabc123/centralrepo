@@ -1,0 +1,87 @@
+\documentclass{report}
+\usepackage{graphicx}
+\begin{document}
+\title{center} {\Large MINI PROJECT REPORT\par
+HOTEL MANAGEMENT SYSTEM\par
+\author{center}Himanshi Lad\par    %name
+0801CS211043} \par                    %enroll no.
+\vspace{1cm}
+\section{\Large Objective}
+{\large The main objective of this mini project 'Hotel Management System' is to serve the basic functions required by a hotel such as room booking, food order etc.\par
+This mini project includes 10 functions as below.\par
+The code written in Python includes 208 lines and the code in C includes 287 lines.}
+
+\section{Function Description}
+\vspace{1cm}
+\begin{enumerate}
+    \item {\Large Home Function}\par
+    {\large This function displays the front page or home page. The user can select any function to perform.}
+    \vspace{1cm}
+    \item {\Large RoomBooking}\par
+    {\large This function books the room if it is already not booked.This function takes input from user, their name address phone number and room number.And Store them in respective arrays.}
+    \vspace{1cm}
+    \item {\Large RoomCancellation}\par
+    {\large Using this function users can cancel their booked room by entering their room number. This function delete the corresponding entries from the arrays.}
+    \vspace{1cm}
+    \item {\Large RoomInfo}\par
+    {\large This function prints all information about the booked rooms from the corresponding arrays.}
+    \vspace{1cm}
+    \item {\Large Search Coustomer}\par
+   {\large This function allows users to search the information about any room using their name. It prints name, room number, address and phone number from the corresponding arrays.}
+   \vspace{1cm}
+    \item {\Large MenuCard}\par
+    {\large This function prints the menu card of the hotel with their prices.}
+    \vspace{1cm}
+    \item {\Large Food Order}\par
+    {\large This function takes the input of dishes  they want from the user and then calculate the total price.
+    It also calls the next method discount to calculate discount.}
+    \vspace{1cm}
+    \item {\Large Discount}\par
+    {\large This method gives a discount of 10 If total price is greater than 200 and 5 if price is greater than 100. Then this method calls the next method bill generate to generate the bill.}
+    \vspace{1cm}
+    \item {\Large BillGenerate}\par
+    {\large The bill generate method takes input as name and phone number then prints the bill along with the discount and the final price to be paid. It also Prince the current date and time.Along with the bill number which is generated randomly using random module.}
+    
+    \item {\Large Feedback}\par
+    {\large The feedback method allows the users to give star rating out of five to the Hotel Raj Mahal.}
+\end{enumerate}
+
+\section {Output Screenshots (Python)}
+   
+        
+        \includegraphics{11.jpg}
+        \includegraphics{12.jpg}
+         \includegraphics[height=10cm]{13.jpg}
+         \includegraphics{14.jpg}
+        \includegraphics{15.jpg}
+        \includegraphics{16.jpg}
+        \includegraphics{17.jpg}
+        \includegraphics{18.jpg}
+        
+\section {Output Screenshots (C)} 
+
+        \includegraphics{image002 (1).jpg}
+        \includegraphics{image004 (1).jpg}
+       
+   \includegraphics{image006 (1).jpg}
+
+
+        \includegraphics{image008 (1).jpg}
+        
+        \includegraphics{image010 (1).jpg}
+        \includegraphics{image012 (1).jpg}
+
+\section{Profiling Screenshots}
+   
+    \includegraphics{img/1.jpg}
+    \includegraphics{img/2.jpg}
+    \includegraphics{img/3.jpg}
+    \includegraphics{img/4.jpg}
+    \includegraphics{img/5.jpg}
+    
+\section {Debugging Screenshots}
+
+     \includegraphics{hh.jpg}
+    \includegraphics{hhh.jpg}
+    \includegraphics{hhhh.jpg}
+\end{document}
